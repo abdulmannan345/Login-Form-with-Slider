@@ -1,0 +1,176 @@
+/*
+      Slider 
+*/
+
+.load
+{
+    animation: slide 2s;
+
+}
+
+.slider
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 40s infinite;
+
+}
+
+@keyframes slide{
+    0%
+    {
+        background-image: url(1165402.jpg);
+    }
+    20%
+    {
+        background-image: url(1165434.jpg);
+    }
+    20.01%
+    {
+        background-image: url(1165434.jpg);
+    }
+    40%
+    {
+        background-image: url(1165502.jpg);
+    }
+    40.01%
+    {
+        background-image: url(1165502.jpg);
+    }
+    60%
+    {
+        background-image: url(1165440.jpg);
+    }
+    60.01%
+    {
+        background-image: url(1165440.jpg);
+    }
+    80%
+    {
+        background-image: url(1165502.jpg);
+    }
+    80.01%
+    {
+        background-image: url(1165502.jpg);
+    }
+    100%
+    {
+        background-image: url(1165402.jpg);
+    }
+    100.01%
+    {
+        background-image: url(1165402.jpg);
+    }
+}
+
+/*Sign form*/
+
+        /*Form border design*/
+        
+        .wrapper {
+            display:flex;
+            align-items: center;
+            flex-direction: column; 
+            justify-content: center;
+            width: 100%;
+            min-height: 100%;
+            padding-top: 20px ;
+            padding-bottom: 20px ;
+            }
+        .border1
+        {
+            width: 390px;
+            height: 350px;
+            background-color: white;
+            opacity: 0.9;
+            text-align: center;
+            border-radius: 30px 30px 30px 30px;
+            -webkit-border-radius: 30px 30px 30px 30px;
+            box-shadow: 2px 2px 35px 0px rgb(134, 133, 133);
+            -webkit-box-shadow: 2px 2px 35px 0px rgb(134, 133, 133);
+        }
+        input[type=text]
+        {
+            border: 2px solid rgb(201, 207, 205);
+            padding: 5px 76px;
+            border-radius: 10px;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+            display: inline-block;
+            border: none;
+            background-color: rgb(201, 207, 205);
+        }
+        input[type=text]:hover
+        {
+            border: 2px solid rgb(173, 177, 176);
+            
+        }
+        input
+        {
+            margin: 4px;
+        }
+        input[type=button], input[type=submit], input[type=reset]
+        {
+            border: 14px;
+            border-radius: 10px;
+            background-color: rgb(201, 207, 205);
+            padding: 10px 18px;
+            
+        }
+        input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover
+        {
+            background-color: rgb(201, 207, 205);
+        }      
+        .form1
+        {
+            align-items: center;
+            margin: 10px 6px 0px 10px;
+
+        }
+        input[value], input[placeholder]
+        {
+            font-size: 16px;
+            color: black;
+        }  
+        *:focus
+        {
+            outline: none;
+        }
+        .ei
+        {
+            padding: 22px;
+            background-color: rgb(127, 255, 185);
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        }
+        .wi
+        {
+            float: left;
+            font-size: 15px;
+            
+        }
+        .ri
+        {
+            float: right;
+            border: 2px solid rgb(201, 207, 205);
+            border-radius: 10px;
+            font-size: 12px;
+            background-color: rgb(201, 207, 205);
+        }
+        .ti
+        {
+            color: black;
+        }
+        .ti:hover
+        {
+            color: black;
+        }
+        .yi
+        {
+            font-size: 13px;
+            float: left;
+        }
